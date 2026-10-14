@@ -1,0 +1,15 @@
+Product Support Document
+
+Wireless Keyboard:
+
+The wireless keyboard uses a USB receiver.
+
+If the keyboard is not detected, reconnect the receiver, replace the batteries if applicable, and reconnect the device.
+
+USB-C Hub:
+
+If a USB-C hub is not detected, disconnect and reconnect it, restart the computer, and test another USB-C port if available.
+
+Laptop Stand:
+
+The laptop stand is a physical accessory and does not require software installation.

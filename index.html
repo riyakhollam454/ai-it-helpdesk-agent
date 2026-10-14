@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI IT Helpdesk</title>
+
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+
+<div class="app-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">🤖</div>
+
+            <div>
+                <h2>HelpDesk AI</h2>
+                <span>IT Support Assistant</span>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+
+            <button class="new-chat-btn" onclick="clearChat()">
+                ＋ New Conversation
+            </button>
+
+        </div>
+
+        <div class="features">
+
+            <h4>AI Capabilities</h4>
+
+            <div class="feature">
+                <span>🧠</span>
+                <div>
+                    <strong>AI Understanding</strong>
+                    <small>Understands your problem</small>
+                </div>
+            </div>
+
+            <div class="feature">
+                <span>💾</span>
+                <div>
+                    <strong>Memory</strong>
+                    <small>Remembers conversations</small>
+                </div>
+            </div>
+
+            <div class="feature">
+                <span>📚</span>
+                <div>
+                    <strong>Knowledge Base</strong>
+                    <small>Uses company information</small>
+                </div>
+            </div>
+
+            <div class="feature">
+                <span>⚙️</span>
+                <div>
+                    <strong>AI Agent</strong>
+                    <small>Performs actions</small>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sidebar-footer">
+            <span class="status-dot"></span>
+            AI System Online
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CHAT -->
+    <main class="chat-container">
+
+        <!-- HEADER -->
+        <header class="chat-header">
+
+            <div class="assistant-info">
+
+                <div class="assistant-avatar">
+                    🤖
+                </div>
+
+                <div>
+                    <h1>AI IT Helpdesk</h1>
+                    <p>
+                        Intelligent IT troubleshooting assistant
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="online-status">
+                <span></span>
+                Online
+            </div>
+
+        </header>
+
+
+        <!-- CHAT MESSAGES -->
+        <section id="chatMessages" class="chat-messages">
+
+            <div class="message assistant-message">
+
+                <div class="message-avatar">
+                    🤖
+                </div>
+
+                <div class="message-content">
+
+                    <div class="message-name">
+                        HelpDesk AI
+                    </div>
+
+                    <div class="message-bubble">
+                        Hello! 👋 I'm your AI IT Helpdesk Assistant.
+                        <br><br>
+                        I can help you with:
+                        <br>
+                        • VPN problems
+                        <br>
+                        • Network issues
+                        <br>
+                        • Email problems
+                        <br>
+                        • Orders and refunds
+                        <br>
+                        • Creating support tickets
+                        <br>
+                        • General IT troubleshooting
+                        <br><br>
+                        How can I help you today?
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SUGGESTIONS -->
+        <div class="suggestions">
+
+            <button onclick="sendSuggestion('My VPN is not connecting')">
+                🔐 VPN Problem
+            </button>
+
+            <button onclick="sendSuggestion('My laptop is running very slowly')">
+                💻 Slow Laptop
+            </button>
+
+            <button onclick="sendSuggestion('Can you check the status of my order ORD1002?')">
+                📦 Order Status
+            </button>
+
+            <button onclick="sendSuggestion('Please create a ticket for my VPN problem')">
+                🎫 Create Ticket
+            </button>
+
+        </div>
+
+
+        <!-- INPUT -->
+        <div class="input-area">
+
+            <div class="input-wrapper">
+
+                <textarea
+                    id="messageInput"
+                    placeholder="Describe your IT problem..."
+                    rows="1"
+                    onkeydown="handleKeyPress(event)"
+                ></textarea>
+
+                <button
+                    id="sendButton"
+                    onclick="sendMessage()"
+                >
+                    ➤
+                </button>
+
+            </div>
+
+            <p class="input-note">
+                AI responses may occasionally be inaccurate. Verify important information.
+            </p>
+
+        </div>
+
+    </main>
+
+</div>
+
+
+<script src="/static/scripts.js"></script>
+
+</body>
+</html>

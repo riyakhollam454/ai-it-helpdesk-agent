@@ -1,0 +1,39 @@
+Company IT Helpdesk FAQ
+
+VPN:
+
+Employees who cannot connect to the company VPN should first verify that their internet connection is working.
+
+Restart the VPN client and retry.
+
+If the problem continues, restart the computer.
+
+If VPN access still fails, the issue should be escalated to the IT Helpdesk.
+
+Password:
+
+Employees should use the company password-reset process when they forget their password.
+
+Never share a password with the helpdesk team.
+
+If the password-reset process fails, create an IT support ticket.
+
+Email:
+
+For email synchronization problems, check the internet connection, restart the email application, and verify that the mailbox is not full.
+
+Persistent synchronization problems should be escalated to IT.
+
+Laptop:
+
+For a slow laptop, restart the computer, close unnecessary applications, and verify available disk space.
+
+If the problem continues, contact IT support.
+
+Security:
+
+Never share passwords, one-time passwords, authentication codes, or confidential company information in a support chat.
+
+Tickets:
+
+Create a support ticket when troubleshooting steps do not resolve the issue or when the issue requires access to systems that the chatbot cannot safely access.
